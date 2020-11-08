@@ -1100,7 +1100,6 @@ class player_class extends PIXI.Sprite
 	
 	change_health(val)
 	{		
-		return;
 		if (this.invincible)
 			if (val<0)
 				return;
